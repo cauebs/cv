@@ -1,0 +1,150 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+\usepackage{fontspec}
+\usepackage[brazil]{babel}
+\usepackage[scale=0.8, top=1cm, bottom=2cm]{geometry}
+
+\moderncvstyle{classic}
+\moderncvcolor{red}
+
+\firstname{Cauê}
+\familyname{Baasch de Souza}
+
+\address{}{Florianópolis, SC}
+\mobile{(48) 99634-5456}
+\email{cauebs@pm.me}
+
+\title{Curriculum Vitae}
+
+\begin{document}
+\makecvtitle{}
+\pagestyle{empty}
+
+\section{Educação}
+
+\cventry
+    {2015--2016}
+    {Bacharelado em Engenharia Mecânica (Incompleto)}
+    {}{}{}
+    {Universidade Federal de Santa Catarina}
+
+\cventry
+    {2016--}
+    {Bacharelado em Ciências da Computação}
+    {}{}{}
+    {Universidade Federal de Santa Catarina}
+
+\section{Competências}
+    \subsection{Programação}
+        \cvitem{Avançado}{Python, Rust}
+        \cvitem{Intermediário}{C, C++, Haskell, Elm, MicroPython}
+        \cvitem{Básico}{TypeScript, Arduino}
+
+    \subsection{Ferramentas}
+        \cvitem{Avançado}{Poetry}
+        \cvitem{Intermediário}{Git, Cargo, Docker, Podman}
+        \cvitem{Básico}{Ninja, Meson, GNU Make}
+
+    \subsection{Ambientes de desenvolvimento}
+        \cvitem{Avançado}{Visual Studio Code}
+        \cvitem{Intermediário}{Atom, Vim, Jupyter}
+        \cvitem{Básico}{PyCharm}
+
+    \subsection{Outros}
+        \cvitem{}{Bancos de dados relacionais (SQLite, PostgreSQL).}
+        \cvitem{}{Bancos de dados colunares (Cassandra).}
+        \cvitem{}{Linux (Arch Linux).}
+
+    \subsection{Conhecimentos e interesses}
+        \cvitem{}{Projeto e implementação de linguagens.}
+        \cvitem{}{Análise estática de código.}
+        \cvitem{}{Desenvolvimento e análise de algoritmos.}
+        \cvitem{}{Benchmarking e otimização.}
+        \cvitem{}{Desenvolvimento de ferramentas e automatização de processos.}
+        \cvitem{}{Sistemas de informações geográficas (GIS).}
+        \cvitem{}{Sistemas embarcados.}
+        \cvitem{}{Ensino de programação (e.g. Python, Rust, MicroPython.)}
+
+    \subsection{Línguas}
+        \cvitem{Inglês}{Fluente para leitura, escrita e conversação.}
+        \cvitem{Português}{Fluente para leitura, escrita e conversação.}
+        \cvitem{Francês}{Nível básico.}
+
+\newpage
+
+\section{Experiências profissionais}
+    \cventry{2016--2017}{Bolsista}
+    {Laboratório de Transportes e Logística (LabTrans) - UFSC}
+    {}{}{
+        \begin{itemize}
+            \item Python.
+            \item Qt, Cassandra.
+            \item Pandas, Geopandas, Shapely, Matplotlib, Folium, PostGIS.
+        \end{itemize}
+    }
+
+    \cventry{2018}{Autônomo}
+    {Engie}
+    {}{}{Desenvolvimento de um crawler.}
+
+    \cventry{2017--}{Coordenador, membro fundador}
+    {Caravela HackerClub}
+    {(coletivo estudantil)}{}{}
+
+    \cventry{2018--2019}{Tesoureiro}
+    {Centro Acadêmico Livre da Computação (CALICO)}
+    {}{}{}
+
+    \cventry{2019--}{Vice-presidente}
+    {Centro Acadêmico Livre da Computação (CALICO)}
+    {}{}{}
+
+    \cventry{2019--}{Coordenador Geral}
+    {Diretório Central dos Estudantes (DCE) - Luís Travassos}
+    {}{}{}
+
+    \cventry{2020}{Estagiário de desenvolvimento}
+    {Expertise Solutions}
+    {}{}{Desenvolvimento de port nativo do framework EFL para Windows (C/C++).}
+
+    \subsection{Ensino}
+        \cvitem{2017--2019}{Minicurso de Python @ UFSC (voluntário) (~80 horas-aula)}
+        \cvitem{2018}{Oficina de Rust @ UFSC (voluntário) (4 horas-aula)}
+        \cvitem{}{Oficina de Rust @ SECCOM - UFSC (2 horas-aula)}
+
+\section{Experiência acadêmica}
+
+    \cventry{2019}{Departamento de Informática e Estatística - UFSC}{Bolsista de pesquisa}
+    {}{}{
+        \begin{itemize}
+            \item Fusão de dados em IoT.
+            \item Microsserviços para integração de protocolos de comunicação em IoT.
+            \item Arduino, Zigbee, MicroPython, sockets.
+        \end{itemize}
+    }
+
+\section{Eventos}
+    \subsection{Organização}
+        \cvitem{2018}{32º Python Floripa @ UFSC}
+        \cvitem{}{33º Python Floripa @ UFSC}
+        \cvitem{}{1º Rust Floripa @ CIASC}
+        \cvitem{}{2º Rust Floripa @ CIASC}
+        \cvitem{}{Todos a Bordo \#1 (Caravela Hackerclub)}
+        \cvitem{}{Todos a Bordo \#2 (Caravela Hackerclub)}
+        \cvitem{}{37º Python Floripa @ UFSC}
+        \cvitem{2019}{Semana Acadêmica de Ciência da Computaçâo e Sistemas de Informação da UFSC (SECCOM)}
+
+    \subsection{Apresentação}
+        \cvitem{2017}{Estruturas de dados no CPython @ 25º Python Floripa (SENAI)}
+        \cvitem{2018}{Criando e empacotando aplicações CLI em Rust @ Native Floripa}
+        \cvitem{2019}{MicroPython: o Arduino dos Pythonistas @ 36º Python Floripa (Celta)}
+        \cvitem{}{Programação de Linguagens (projeto de linguagens de programação) @ Todos a Bordo \#4 (Caravela Hackerclub)}
+        \cvitem{}{Com licença eu tenho direitos (propriedade intelectual e software livre) @ Todos a Bordo \#5 (Caravela Hackerclub)}
+
+
+\section{Repositórios pessoais}
+\cvitem{}{\url{https://github.com/cauebs}}
+
+\thispagestyle{plain}
+
+\end{document}
